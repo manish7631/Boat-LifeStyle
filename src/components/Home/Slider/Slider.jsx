@@ -47,16 +47,22 @@ export default class PauseOnHover extends Component {
 
                 }}
             >
-                <Button onClick={this.previous} style={
+                <Button onClick={this.previous} sx={
                     {
                         border: "1px solid red",
                         position: "absolute",
                         width: "40px",
                         height: "40px",
-                        top: "30%",
+                        top: {
+                            xs: "20%",
+                            sm: "35%",
+                            md: "40%",
+                            lg: "45%",
+                            xl: "50%"
+                        },
                         left: "6%",
                         zIndex: "1",
-                        borderRadius: "50%",
+                        borderRadius: "45%",
                         padding: "5px",
                         backgroundColor: "transparent",
 
@@ -67,16 +73,22 @@ export default class PauseOnHover extends Component {
                     }
                 }>  <ArrowBackIosIcon /></Button>
 
-                <Button onClick={this.next} style={
+                <Button onClick={this.next} sx={
                     {
                         border: "1px solid red",
                         position: "absolute",
                         width: "40px",
                         height: "40px",
-                        top: "30%",
+                        top: {
+                            xs: "20%",
+                            sm: "35%",
+                            md: "40%",
+                            lg: "45%",
+                            xl: "45%"
+                        },
                         left: "90%",
                         zIndex: "1",
-                        borderRadius: "50%",
+                        borderRadius: "45%",
                         padding: "5px",
                         backgroundColor: "transparent",
 
