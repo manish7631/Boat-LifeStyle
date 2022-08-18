@@ -35,50 +35,65 @@ export default class PauseOnHover extends Component {
         };
         return (
             <Box style={{
-                maxWidth: "100%",
+                width: "100%",
                 height: "auto",
-                // border:"1px solid red"
+                border: "1px solid red",
+                // position: "relative",
+                alignItems: "center",
+                //  display: "flex",
+                // justifyContent: "space-around"
             }}>
-                <Button onClick={this.previous} style={
-                    {
-                        border: "1px solid red",
-                        position: "absolute",
-                        width: "40px",
-                        height: "40px",
-                        top: "50%",
-                        left: "6%",
-                        zIndex: "1",
-                        borderRadius: "50%",
-                        padding: "5px",
-                        backgroundColor: "transparent",
+                <Box style={{
+                    width: "100%",
+                    height: "auto",
+                    border: "1px solid red",
+                    position: "relative",
+                    alignItems: "center",
+                    display: "flex",
+                    justifyContent: "space-evenly"
+                }}>
+                    <Button onClick={this.previous} style={
+                        {
+                            border: "1px solid red",
+                            position: "absolute",
+                            width: "40px",
+                            height: "40px",
+                            top: "50%",
+                            left: "1%",
+                            zIndex: "1",
+                            borderRadius: "50%",
+                            backgroundColor: "transparent",
+                            marginLeft: "5%",
+                            marginTop: "12%"
 
 
 
 
 
-                    }
-                }>  <ArrowBackIosIcon /></Button>
+                        }
+                    }>  <ArrowBackIosIcon /></Button>
 
-                <Button onClick={this.next} style={
-                    {
-                        border: "1px solid red",
-                        position: "absolute",
-                        width: "40px",
-                        height: "40px",
-                        top: "50%",
-
-                        left: "90%",
-                        zIndex: "1",
-                        borderRadius: "50%",
-                        padding: "5px",
-                        backgroundColor: "transparent",
-                        transform: "translateY(-50%)"
-
+                    <Button onClick={this.next} style={
+                        {
+                            border: "1px solid red",
+                            position: "absolute",
+                            width: "40px",
+                            height: "40px",
+                            top: "60%",
+                            left: "30%",
+                            zIndex: "1",
+                            borderRadius: "50%",
+                            backgroundColor: "transparent",
+                            marginLeft: "55%",
+                            marginTop: "12%"
 
 
 
-                    }
-                }>  <ArrowForwardIosIcon /></Button>
+
+
+                        }
+                    }>  <ArrowForwardIosIcon /></Button>
+                </Box>
 
 
 
@@ -88,7 +103,7 @@ export default class PauseOnHover extends Component {
 
                         <img style={{
                             height: "auto",
-                            maxWidth: "100%",
+                            width: "100%",
                             verticalAlign: "middle"
 
                         }} src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Sail_with_boAt_WEB_1400x.jpg?v=1652272257" alt="" />
@@ -97,7 +112,7 @@ export default class PauseOnHover extends Component {
                     <Card key={2}>
                         <img style={{
                             height: "auto",
-                            maxWidth: "100%",
+                            width: "100%",
                             verticalAlign: "middle"
                         }} src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/STONE-1450WEB_48633fa7-b4fb-46d3-b1b2-f90a8bff6df4_1400x.jpg?v=1652272312" alt="" />
                     </Card>
@@ -111,7 +126,7 @@ export default class PauseOnHover extends Component {
                     <Card key={4}>
                         <img style={{
                             height: "auto",
-                            maxWidth: "100%",
+                            width: "100%",
                             verticalAlign: "middle"
                         }} src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/WhatsApp_Image_2022-04-29_at_11.32.28_AM_1400x.jpg?v=1652272398" alt="" />
                     </Card>
