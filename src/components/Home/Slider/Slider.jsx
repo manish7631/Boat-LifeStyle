@@ -6,6 +6,7 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { Box, Button, Card } from "@mui/material";
 
+
 export default class PauseOnHover extends Component {
 
     constructor(props) {
@@ -33,36 +34,21 @@ export default class PauseOnHover extends Component {
             afterChange: current => this.setState({ activeSlide2: current })
         };
         return (
-            <Box
-                sx={{
-                    width: '100%',
-                    height: {
-                        xs: 300,
-                        sm: 400,
-                        md: 420,
-                        lg: 420,
-                        xl: 420
-
-                    },
-
-                }}
-            >
-                <Button onClick={this.previous} sx={
+            <Box style={{
+                maxWidth: "100%",
+                height: "auto",
+                // border:"1px solid red"
+            }}>
+                <Button onClick={this.previous} style={
                     {
                         border: "1px solid red",
                         position: "absolute",
                         width: "40px",
                         height: "40px",
-                        top: {
-                            xs: "20%",
-                            sm: "35%",
-                            md: "40%",
-                            lg: "45%",
-                            xl: "50%"
-                        },
+                        top: "50%",
                         left: "6%",
                         zIndex: "1",
-                        borderRadius: "45%",
+                        borderRadius: "50%",
                         padding: "5px",
                         backgroundColor: "transparent",
 
@@ -73,24 +59,20 @@ export default class PauseOnHover extends Component {
                     }
                 }>  <ArrowBackIosIcon /></Button>
 
-                <Button onClick={this.next} sx={
+                <Button onClick={this.next} style={
                     {
                         border: "1px solid red",
                         position: "absolute",
                         width: "40px",
                         height: "40px",
-                        top: {
-                            xs: "20%",
-                            sm: "35%",
-                            md: "40%",
-                            lg: "45%",
-                            xl: "45%"
-                        },
+                        top: "50%",
+
                         left: "90%",
                         zIndex: "1",
-                        borderRadius: "45%",
+                        borderRadius: "50%",
                         padding: "5px",
                         backgroundColor: "transparent",
+                        transform: "translateY(-50%)"
 
 
 
@@ -105,55 +87,32 @@ export default class PauseOnHover extends Component {
                     <Card key={1}>
 
                         <img style={{
-                            width: "100%",
-                            height: {
-                                xs: 300,
-                                sm: 400,
-                                md: 420,
-                                lg: 420,
-                                xl: 420
+                            height: "auto",
+                            maxWidth: "100%",
+                            verticalAlign: "middle"
 
-                            },
                         }} src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Sail_with_boAt_WEB_1400x.jpg?v=1652272257" alt="" />
 
                     </Card>
                     <Card key={2}>
                         <img style={{
-                            width: "100%",
-                            height: {
-                                xs: 300,
-                                sm: 400,
-                                md: 420,
-                                lg: 420,
-                                xl: 420
-
-                            },
+                            height: "auto",
+                            maxWidth: "100%",
+                            verticalAlign: "middle"
                         }} src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/STONE-1450WEB_48633fa7-b4fb-46d3-b1b2-f90a8bff6df4_1400x.jpg?v=1652272312" alt="" />
                     </Card>
                     <Card key={3}>
                         <img style={{
-                            width: "100%",
-                            height: {
-                                xs: 300,
-                                sm: 400,
-                                md: 420,
-                                lg: 420,
-                                xl: 420
-
-                            },
+                            height: "auto",
+                            maxWidth: "100%",
+                            verticalAlign: "middle"
                         }} src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Watch_xtend_wbann_1_1400x.jpg?v=1652272357" alt="" />
                     </Card>
                     <Card key={4}>
                         <img style={{
-                            width: "100%",
-                            height: {
-                                xs: 300,
-                                sm: 400,
-                                md: 420,
-                                lg: 420,
-                                xl: 420
-
-                            },
+                            height: "auto",
+                            maxWidth: "100%",
+                            verticalAlign: "middle"
                         }} src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/WhatsApp_Image_2022-04-29_at_11.32.28_AM_1400x.jpg?v=1652272398" alt="" />
                     </Card>
 
