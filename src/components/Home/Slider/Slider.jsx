@@ -54,7 +54,7 @@ export default class PauseOnHover extends Component {
                 }}>
                     <Button onClick={this.previous} style={
                         {
-                            border: "1px solid red",
+
                             position: "absolute",
                             width: "40px",
                             height: "40px",
@@ -75,7 +75,7 @@ export default class PauseOnHover extends Component {
 
                     <Button onClick={this.next} style={
                         {
-                            border: "1px solid red",
+
                             position: "absolute",
                             width: "40px",
                             height: "40px",
