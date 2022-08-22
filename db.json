@@ -1,0 +1,452 @@
+{
+    "TopWatch":[
+        {
+            "id":"1",
+            "name":"boAt Watch Xtend",
+            "actualPrice":"7,990",
+            "latestPrice":"3,499",
+            "reviews":"34",
+            "rating":"4.68",
+            "p1":"Colour variants for every style",
+            "p2":"Fast Charge in just 15 minutes",
+            "p3":"Ace your workouts with IPX5 rating",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main2_529ecf13-c993-4fe7-a2d6-9357f1a47db4_600x.png?v=1650387008"
+        },
+        {
+            "id":"2",
+            "name":"boAt Storm",
+            "actualPrice":"5,990",
+            "latestPrice":"2,999",
+            "reviews":"757",
+            "rating":"4.79",
+            "p1":"Track and transform your health",
+            "p2":"Full touch display",
+            "p3":"Track your SpO2 levels",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/e7910a39-186a-41f6-ac57-fc3e84108104_600x.png?v=1625045106"
+        },
+        {
+            "id":"3",
+            "name":"boAt Watch Iris",
+            "actualPrice":"11,999",
+            "latestPrice":"4,399",
+            "reviews":"34",
+            "rating":"4.68",
+            "p1":"Amoled display",
+            "p2":"1.39 inches display",
+            "p3":"Health on the go",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-blue_d6503e2e-e0b1-4c4e-af28-2164903baf9f_600x.png?v=1640237576"
+        },
+        {
+            "id":"4",
+            "name":"boAt Watch‌ Vertex",
+            "actualPrice":"6,990",
+            "latestPrice":"2,499",
+            "reviews":"2",
+            "rating":"5",
+            "p1":"Colour variants for every style",
+            "p2":"Fast Charge in just 15 minutes",
+            "p3":"Ace your workouts with IPX5 rating",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_red_c23085c4-970f-421b-9752-d82a5bc8d17d_600x.png?v=1635140773"
+        },
+        {
+            "id":"5",
+            "name":"boAt Watch Flash",
+            "actualPrice":"6,990",
+            "latestPrice":"2,999",
+            "reviews":"7",
+            "rating":"4.86",
+            "p1":"Track and transform your health",
+            "p2":"Full touch display",
+            "p3":"Track your menstrual cycle",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/9da7e1ae-89f2-42c4-9714-76ac5ec83817_600x.png?v=1625045743"
+        },
+        {
+            "id":"6",
+            "name":"boAt Watch Mystiq",
+            "actualPrice":"6,990",
+            "latestPrice":"3,499",
+            "reviews":"34",
+            "rating":"4.68",
+            "p1":"1.57 inch Display",
+            "p2":"Multiple Sports Mode",
+            "p3":"Call, Text & Social Media Notifications",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Green_4_300x.png?v=1651215796"
+        },
+        {
+            "id":"7",
+            "name":"boAt Watch Xtend",
+            "actualPrice":"7,990",
+            "latestPrice":"3,499",
+            "reviews":"34",
+            "rating":"4.68",
+            "p1":"Colour variants for every style",
+            "p2":"Fast Charge in just 15 minutes",
+            "p3":"Ace your workouts with IPX5 rating",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main2_529ecf13-c993-4fe7-a2d6-9357f1a47db4_600x.png?v=1650387008"
+        },
+        {
+            "id":"2",
+            "name":"boAt Storm",
+            "actualPrice":"5,990",
+            "latestPrice":"2,999",
+            "reviews":"757",
+            "rating":"4.79",
+            "p1":"Track and transform your health",
+            "p2":"Full touch display",
+            "p3":"Track your SpO2 levels",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/e7910a39-186a-41f6-ac57-fc3e84108104_600x.png?v=1625045106"
+        }
+    ],
+    "TopPicks":[
+        {
+            "id":"1",
+            "name":"boAt Airdopes 131 - Wireless Earbuds",
+            "actualPrice":"2,990",
+            "latestPrice":"1,119",
+            "reviews":"585",
+            "rating":"4.72",
+            "p1":"Colour variants for every style",
+            "p2":"Fast Charge in just 15 minutes",
+            "p3":"Ace your workouts with IPX5 rating",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/32011675-2ad8-4b99-9787-895caf201d28_300x.png?v=1642405569"
+        },
+        {
+            "id":"2",
+            "name":"Zoom boAt Rockerz 333",
+            "actualPrice":"3,990",
+            "latestPrice":"1,480",
+            "reviews":"7",
+            "rating":"2.9",
+            "p1":"Track and transform your health",
+            "p2":"Full touch display",
+            "p3":"Track your SpO2 levels",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-img-R333-1_300x.png?v=1641801662"
+        },
+        {
+            "id":"3",
+            "name":"boAt Watch Iris",
+            "actualPrice":"11,999",
+            "latestPrice":"4,399",
+            "reviews":"34",
+            "rating":"4.68",
+            "p1":"Amoled display",
+            "p2":"1.39 inches display",
+            "p3":"Health on the go",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/xtend_black_300x.png?v=1650387008"
+        },
+        {
+            "id":"4",
+            "name":"boAt Watch‌ Vertex",
+            "actualPrice":"6,990",
+            "latestPrice":"2,499",
+            "reviews":"2",
+            "rating":"5",
+            "p1":"Colour variants for every style",
+            "p2":"Fast Charge in just 15 minutes",
+            "p3":"Ace your workouts with IPX5 rating",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_red_c23085c4-970f-421b-9752-d82a5bc8d17d_600x.png?v=1635140773"
+        }
+        
+    ],
+    "Earbuds":[
+        {
+            "id":"1",
+            "name":"boAt Airdopes 131 - Wireless Earbuds",
+            "actualPrice":"5,690",
+            "latestPrice":"3,499",
+            "reviews":"343",
+            "rating":"4.78",
+            "p1":"Colour variants for every style",
+            "p2":"Fast Charge in just 15 minutes",
+            "p3":"Ace your workouts with IPX5 rating",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/32011675-2ad8-4b99-9787-895caf201d28_300x.png?v=1642405569"
+        },
+        {
+            "id":"2",
+            "name":"boAt Airdopes 121 v2",
+            "actualPrice":"2,990",
+            "latestPrice":"1,099",
+            "reviews":"257",
+            "rating":"4.74",
+            "p1":"Track and transform your health",
+            "p2":"Full touch display",
+            "p3":"Track your SpO2 levels",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/airdopes-121-v2-blue_300x.png?v=1612765376"
+        },
+        {
+            "id":"3",
+            "name":"Airdopes 115",
+            "actualPrice":"2,399",
+            "latestPrice":"1,399",
+            "reviews":"134",
+            "rating":"4.08",
+            "p1":"Amoled display",
+            "p2":"1.39 inches display",
+            "p3":"Health on the go",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/115-main1_300x.png?v=1650530656"
+        },
+        {
+            "id":"4",
+            "name":"boAt Airdopes 141",
+            "actualPrice":"5,990",
+            "latestPrice":"2,499",
+            "reviews":"52",
+            "rating":"5",
+            "p1":"Colour variants for every style",
+            "p2":"Fast Charge in just 15 minutes",
+            "p3":"Ace your workouts with IPX5 rating",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/grey_300x.png?v=1648723802"
+        },
+        {
+            "id":"5",
+            "name":"boAt Airdopes 402 - Wireless Earbuds",
+            "actualPrice":"1,990",
+            "latestPrice":"1,999",
+            "reviews":"237",
+            "rating":"4.06",
+            "p1":"Track and transform your health",
+            "p2":"Full touch display",
+            "p3":"Track your menstrual cycle",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/402-main-img_300x.png?v=1630059242"
+        },
+        {
+            "id":"6",
+            "name":"boAt Airdopes 621",
+            "actualPrice":"6,990",
+            "latestPrice":"3,499",
+            "reviews":"34",
+            "rating":"4.68",
+            "p1":"1.57 inch Display",
+            "p2":"Multiple Sports Mode",
+            "p3":"Call, Text & Social Media Notifications",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-img_AD621_1_300x.png?v=1616230788"
+        }
+    ],
+    "Wireless":[
+        {
+            "id":"1",
+            "name":"boAt Rockerz 235 V2",
+            "actualPrice":"1,690",
+            "latestPrice":"2,499",
+            "reviews":"843",
+            "rating":"2.78",
+            "p1":"Colour variants for every style",
+            "p2":"Fast Charge in just 15 minutes",
+            "p3":"Ace your workouts with IPX5 rating",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/ed46e58c-9643-43e0-b350-9539d293aa51_300x.png?v=1625045114"
+        },
+        {
+            "id":"2",
+            "name":"boAt Rockerz 245 V2",
+            "actualPrice":"4,890",
+            "latestPrice":"3,099",
+            "reviews":"167",
+            "rating":"4.04",
+            "p1":"Track and transform your health",
+            "p2":"Full touch display",
+            "p3":"Track your SpO2 levels",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/245v2_main_2_300x.png?v=1627276367"
+        },
+        {
+            "id":"3",
+            "name":"boAt Rockerz 450",
+            "actualPrice":"5,399",
+            "latestPrice":"3,399",
+            "reviews":"134",
+            "rating":"4.08",
+            "p1":"Amoled display",
+            "p2":"1.39 inches display",
+            "p3":"Health on the go",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/7499af44-9d7a-489c-80f0-51f7799289e4_300x.png?v=1625045491"
+        },
+        {
+            "id":"4",
+            "name":"boAt Rockerz 330",
+            "actualPrice":"8,990",
+            "latestPrice":"6,499",
+            "reviews":"452",
+            "rating":"3.08",
+            "p1":"Colour variants for every style",
+            "p2":"Fast Charge in just 15 minutes",
+            "p3":"Ace your workouts with IPX5 rating",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/0cfa4417-0213-4b49-b78e-0ae68aeb7057_300x.png?v=1625046144"
+        },
+        {
+            "id":"5",
+            "name":"Trebel Rockerz 255 Pro+",
+            "actualPrice":"2,990",
+            "latestPrice":"1,999",
+            "reviews":"237",
+            "rating":"4.06",
+            "p1":"Track and transform your health",
+            "p2":"Full touch display",
+            "p3":"Track your menstrual cycle",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/0cfa4417-0213-4b49-b78e-0ae68aeb7057_300x.png?v=1625046144"
+        },
+        {
+            "id":"6",
+            "name":"Trebel Rockerz 550",
+            "actualPrice":"3,990",
+            "latestPrice":"3,499",
+            "reviews":"34",
+            "rating":"4.68",
+            "p1":"1.57 inch Display",
+            "p2":"Multiple Sports Mode",
+            "p3":"Call, Text & Social Media Notifications",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/48b829ed-bee6-492e-b9bc-1824d5c63bd4_1aa0a835-9bbd-432c-ad92-76d0c2b7a36d_600x.png?v=1646390147"
+        }
+    ],
+    "NewLaunches":[
+        {
+            "id":"1",
+            "type":"Wireless Earbuds",
+            "name":"boAt Airdopes 115",
+            "actualPrice":"1,690",
+            "latestPrice":"1,499",
+            "reviews":"843",
+            "rating":"2.78",
+            "des":"Pro gamer? We got you. A do-it-all hustler? Even better! Airdopes 115 is the perfect choice for both worlds. Its 13mm drivers will make you experience a thumping bass and drown you in the unbeatable boAt Signature Sound. Get the gamer to win matches with minimum lag powered by BEAST™ Mode. Call disturbance will never be an issue with ENx™ technology that makes calls crystal clear for you. So, pick from its dynamic colours & vibe limitless with its 24HRS playback",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD-115-Black.jpg?v=1652257521"
+        },
+        {
+            "id":"2",
+            "type":"Wireless Earbuds",
+            "name":"boAt Airdopes 500 ANC",
+            "actualPrice":"4,890",
+            "latestPrice":"3,999",
+            "reviews":"367",
+            "rating":"3.04",
+             "des":"ap out of chaos & listen to the #SoundThatMatters with Airdopes 500 ANC. The erratic chatter while commuting, the swoosh of the strong winds, and the deafening traffic – tune out of everything and focus on what matters with Hybrid Active Noise Cancellation up to 35dB. Don’t let your words fail you – its Quad Mics & ENx™ Technology ensure your voice is heard as good as in person. And when you’re ready to game, BEAST™ Mode offers seamless gaming with minimal lag. Plug in. Switch on.",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/new-launch-500-anc.jpg?v=1650021089"
+        }
+    ],
+    
+    "Gaming":[
+        {
+            "id":"1",
+            "name":"boAt Immortal 1300",
+            "actualPrice":"7,990",
+            "latestPrice":"3,499",
+            "reviews":"34",
+            "rating":"4.68",
+            "p1":"Colour variants for every style",
+            "p2":"Fast Charge in just 15 minutes",
+            "p3":"Ace your workouts with IPX5 rating",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main2_33ed4e4f-8ef4-4c8a-a0c7-68216dfafa4a_300x.png?v=1643477993"
+        },
+        {
+            "id":"2",
+            "name":"boAt Immortal 1000D",
+            "actualPrice":"5,990",
+            "latestPrice":"2,999",
+            "reviews":"757",
+            "rating":"4.79",
+            "p1":"Track and transform your health",
+            "p2":"Full touch display",
+            "p3":"Track your SpO2 levels",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/IM1300_main_2_300x.png?v=1632715015"
+        },
+        {
+            "id":"3",
+            "name":"boAt Immortal 400",
+            "actualPrice":"11,999",
+            "latestPrice":"4,399",
+            "reviews":"34",
+            "rating":"4.68",
+            "p1":"Amoled display",
+            "p2":"1.39 inches display",
+            "p3":"Health on the go",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/2_f3aa2756-01f3-4e39-80bc-7b4f6551c7aa_300x.png?v=1625748159"
+        },
+        {
+            "id":"4",
+            "name":"boAt Immortal 200",
+            "actualPrice":"6,990",
+            "latestPrice":"2,499",
+            "reviews":"2",
+            "rating":"5",
+            "p1":"Colour variants for every style",
+            "p2":"Fast Charge in just 15 minutes",
+            "p3":"Ace your workouts with IPX5 rating",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main2-700_300x.png?v=1643632679"
+        },
+        {
+            "id":"5",
+            "name":"boAt Immortal 700",
+            "actualPrice":"6,990",
+            "latestPrice":"2,999",
+            "reviews":"7",
+            "rating":"4.86",
+            "p1":"Track and transform your health",
+            "p2":"Full touch display",
+            "p3":"Track your menstrual cycle",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-bl_300x.png?v=1625748090"
+        },
+        {
+            "id":"6",
+            "name":"boAt Immortal 100",
+            "actualPrice":"6,990",
+            "latestPrice":"2,999",
+            "reviews":"7",
+            "rating":"4.86",
+            "p1":"Track and transform your health",
+            "p2":"Full touch display",
+            "p3":"Track your menstrual cycle",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/7499af44-9d7a-489c-80f0-51f7799289e4_300x.png?v=1625045491"
+        } 
+    ],
+     
+    "Blog":[
+        {
+            "id":"1",
+             "des":"Earphones Buying Guide - Everything You Need To Know",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Earphone_1296x_540x_25759241-1386-4661-bec0-bad7c111178f_540x.png?v=1650620291"
+        },
+        {
+            "id":"2",
+           "des":"The Ultimate Smartwatch Guide - Get The World On Your Wrist",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Main-banner_520x500_540x_d7c9944e-0985-498b-9a89-3a54d32c9dd2_520x.png?v=1650620307"
+        },
+        {
+            "id":"3",
+            "des":"Top Headphones Under 2000 to Buy in 2022",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/articles/Banner_2_700x.png?v=1653120525"
+        } 
+    ],
+    "actors":[
+        {
+            "id":"1",
+            "type":"Meet the boAttheads",
+            "name":"K L RAHUL",
+            "p1":"Fierce. Flamboyant. Fearless.",
+            "des":"When you hear the crowd raor, be assured that it's KL Rahul making his way to the field. Our hardcore boAthead, KL Rahul, hits it with his performance as well as his fashion statement. ON or off field, Rahul always makes #MoveOfTheChampions.",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Fierce_-Flamboyant_-Fearless_jpg_563x.jpg?v=1651227694"
+        },
+        {
+            "id":"2",
+            "type":"Meet the boAttheads",
+            "name":"RASHMIKA MANDANNA",
+            "p1":"Radiant.Rebel. Trailblazer.",
+            "des":"The Queen of sasa & hearts, Rashmika Mandanna is the newly on-board boAthead. Do you know what our boAthead Rashmika & boAt have in common?They both leave you speechless with their mind-boggling performance.",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Radiant_-Rebel_-Trailblazer_jpg_563x.jpg?v=1651227770"
+        }
+    ],
+    
+    "About":[
+        {
+            "id":"1",
+             "des":"It is value for money, best sound especially bass",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/testi-1200_284x.png?v=1649980899"
+        },
+        {
+            "id":"2",
+           "des":"The battery backup is something unbelievable",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/testimonial-img-2_284x.png?v=1649668053"
+        },
+        {
+            "id":"3",
+            "des":"Amazing product great sound quality and the mic performance is also awesome",
+            "img":"https://cdn.shopify.com/s/files/1/0057/8938/4802/files/testimonial-img-3_284x.png?v=1649668053"
+        } 
+    ]
+}

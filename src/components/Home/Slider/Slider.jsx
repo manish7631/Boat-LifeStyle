@@ -37,16 +37,12 @@ export default class PauseOnHover extends Component {
             <Box style={{
                 width: "100%",
                 height: "auto",
-                border: "1px solid red",
-                // position: "relative",
                 alignItems: "center",
-                //  display: "flex",
-                // justifyContent: "space-around"
+
             }}>
                 <Box style={{
                     width: "100%",
                     height: "auto",
-                    border: "1px solid red",
                     position: "relative",
                     alignItems: "center",
                     display: "flex",
@@ -65,11 +61,6 @@ export default class PauseOnHover extends Component {
                             backgroundColor: "transparent",
                             marginLeft: "5%",
                             marginTop: "12%"
-
-
-
-
-
                         }
                     }>  <ArrowBackIosIcon /></Button>
 
@@ -86,11 +77,6 @@ export default class PauseOnHover extends Component {
                             backgroundColor: "transparent",
                             marginLeft: "55%",
                             marginTop: "12%"
-
-
-
-
-
                         }
                     }>  <ArrowForwardIosIcon /></Button>
                 </Box>
