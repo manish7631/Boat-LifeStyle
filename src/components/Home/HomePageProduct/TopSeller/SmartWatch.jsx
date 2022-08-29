@@ -44,7 +44,7 @@ export const SmartWatch = () => {
 
 
     useEffect(() => {
-        if (width < 400) {
+        if (width < 700) {
             setPagesize(1)
             async function getData() {
                 try {
