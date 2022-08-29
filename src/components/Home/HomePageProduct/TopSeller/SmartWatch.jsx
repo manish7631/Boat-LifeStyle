@@ -10,6 +10,7 @@ import AddIcon from '@mui/icons-material/Add';
 import { Box } from "@mui/material";
 
 import "../../../../BreakPoint/HomeBreak.css"
+import { ConnectingAirportsOutlined } from '@mui/icons-material';
 
 
 function UsewindowSize() {
@@ -39,34 +40,27 @@ export const SmartWatch = () => {
 
     const [page, setPage] = useState(1)
 
-    const [limit, setLimit] = useState(4)
-
-
-
-    const getData = async () => {
-        axios.get(`http://localhost:8080/TopWatch?_page=${page}&_limit=${limit}`).then(({ data }) => {
-            setWatchData(data)
-
-        })
-            .catch((err) => { console.log("error", err) })
-    }
+    const [pagesize, setPagesize] = useState(4)
 
 
     useEffect(() => {
         if (width < 400) {
-            setLimit(1)
-            getData()
-        } else
+            setPagesize(1)
+            async function getData() {
+                try {
+                    const arr = await axios.get(`http://localhost:8000/topwatch?page=${page}&pagesize=${pagesize}`)
+                    setWatchData(arr.data)
 
-            if (width >= 400 && width < 800) {
-                setLimit(2)
-                getData()
+                } catch (err) {
+                    console.log(err)
+                }
             }
 
+            getData()
+        }
+    }, [page, pagesize])
 
-    }, [page, limit])
 
-    console.log(limit)
 
 
 
@@ -79,7 +73,7 @@ export const SmartWatch = () => {
                     watchData.map((e, i) => {
                         return (
                             <Box key={uuidv4()} className="Home_main_first_product_watch"  >
-                                <img src={e.img} alt="" />
+                                <img src={e.Img_url} alt="" />
 
                                 <Box className="Home_watch_text w-300 h-205" style={{
                                     borderRadius: "10px",
@@ -100,8 +94,8 @@ export const SmartWatch = () => {
                                             padding: "4px",
 
                                         }}><StarIcon /></p>
-                                        <p style={{ fontWeight: "600" }}>{e.rating}</p>
-                                        <p style={{ fontWeight: "600" }}>({e.reviews} reviews)</p>
+                                        <p style={{ fontWeight: "600" }}>{e.Rating}</p>
+                                        <p style={{ fontWeight: "600" }}>({e.Reviews} reviews)</p>
                                     </Box>
 
                                     <Box className="Home_main_name" style={{
@@ -113,7 +107,7 @@ export const SmartWatch = () => {
                                         fontSixe: "20px",
                                         fontWeight: "800"
                                     }}>
-                                        <p>{e.name}</p>
+                                        <p>{e.Name}</p>
                                     </Box>
 
                                     <Box style={{
@@ -137,7 +131,7 @@ export const SmartWatch = () => {
                                                         marginTop: "0",
                                                         fontWeight: "500"
                                                     }
-                                                }> <p> <CurrencyRupeeIcon /> </p><p>{e.latestPrice}</p></Box>
+                                                }> <p> <CurrencyRupeeIcon /> </p><p>{e.LatestPrice}</p></Box>
 
                                             <Box style={
                                                 {
@@ -146,7 +140,7 @@ export const SmartWatch = () => {
                                                     marginTop: "-10px",
                                                     textDecoration: "line-through"
                                                 }
-                                            }> <p><CurrencyRupeeIcon /></p><p>{e.actualPrice}</p></Box>
+                                            }> <p><CurrencyRupeeIcon /></p><p>{e.ActualPrice}</p></Box>
 
                                         </Box>
                                         <Box>
