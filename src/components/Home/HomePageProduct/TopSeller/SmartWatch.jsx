@@ -45,7 +45,7 @@ export const SmartWatch = () => {
 
     useEffect(() => {
         if (width < 700) {
-            setPagesize(1)
+            //  setPagesize(1)
             async function getData() {
                 try {
                     const arr = await axios.get(`https://babita-boat.herokuapp.com/topwatch?page=${page}&pagesize=${pagesize}`)
@@ -62,7 +62,7 @@ export const SmartWatch = () => {
 
 
 
-
+    console.log("arr", watchData)
 
     return (
         <>
