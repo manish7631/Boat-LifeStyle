@@ -43,26 +43,36 @@ export const SmartWatch = () => {
     const [pagesize, setPagesize] = useState(4)
 
 
+
+
     useEffect(() => {
-        if (width < 700) {
-            //  setPagesize(1)
-            async function getData() {
-                try {
-                    const arr = await axios.get(`https://babita-boat.herokuapp.com/topwatch?page=${page}&pagesize=${pagesize}`)
-                    setWatchData(arr.data)
 
-                } catch (err) {
-                    console.log(err)
-                }
-            }
-
-            getData()
+        if (width < 400) {
+            setPagesize(1)
+        } else if (width > 400 && width < 800) {
+            setPagesize(2)
+        } else if (width > 800 && width < 1200) {
+            setPagesize(3)
         }
-    }, [page, pagesize])
+
+
+        async function getData() {
+            try {
+                const arr = await axios.get(`https://babita-boat.herokuapp.com/topwatch?page=${page}&pagesize=${pagesize}`)
+                setWatchData(arr.data)
+
+            } catch (err) {
+                console.log(err)
+            }
+        }
+
+        getData()
+
+    }, [page, pagesize, width])
 
 
 
-    console.log("arr", watchData)
+
 
     return (
         <>
@@ -170,45 +180,37 @@ export const SmartWatch = () => {
             </Box>
 
 
-            <button style={{
-                border: "1px solid red",
-                position: "absolute",
-                width: "40px",
-                height: "40px",
-                top: "135%",
-                left: "6%",
-                zIndex: "1",
-                borderRadius: "50%",
-                padding: "5px",
-                backgroundColor: "transparent",
+            <button className='arrowbtnLeft' onClick={() => {
+                if (page > 0) {
+                    setPage(page - 1)
+                }
 
-            }} onClick={() => {
-
-                setPage(page - 1)
 
             }}><ArrowBackIosIcon /></button>
-            <button style={
-                {
-                    border: "1px solid red",
-                    position: "absolute",
-                    width: "40px",
-                    height: "40px",
-                    top: "135%",
-                    left: "90%",
-                    zIndex: "1",
-                    borderRadius: "50%",
-                    padding: "5px",
-                    backgroundColor: "transparent",
+            <button className='arrowbtnRight'
+                onClick={() => {
+
+                    if (width < 400) {
+                        if (page < 8) {
+                            setPage(page + 1)
+                        }
+                    } else if (width > 400 && width < 800) {
+                        if (page < 4) {
+                            setPage(page + 1)
+                        }
+                    } else if (width > 800 && width < 1200) {
+                        if (page < 9) {
+                            setPage(page + 1)
+                        }
+                    } else if (width > 1200) {
+                        if (page < 2) {
+                            setPage(page + 1)
+                        }
+                    }
 
 
 
-
-                }
-            } onClick={() => {
-
-                setPage(page + 1)
-
-            }}><ArrowForwardIosIcon /></button>
+                }}><ArrowForwardIosIcon /></button>
 
         </>
     )
