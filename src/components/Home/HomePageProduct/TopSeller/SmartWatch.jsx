@@ -10,7 +10,7 @@ import AddIcon from '@mui/icons-material/Add';
 import { Box } from "@mui/material";
 
 import "../../../../BreakPoint/HomeBreak.css"
-import { ConnectingAirportsOutlined } from '@mui/icons-material';
+
 
 
 function UsewindowSize() {
@@ -76,141 +76,143 @@ export const SmartWatch = () => {
 
     return (
         <>
-            <Box id="Home_main_first_product">
+            <Box className='main'>
+                <Box id="Home_main_first_product">
 
 
-                {
-                    watchData.map((e, i) => {
-                        return (
-                            <Box key={uuidv4()} className="Home_main_first_product_watch"  >
-                                <img src={e.Img_url} alt="" />
+                    {
+                        watchData.map((e, i) => {
+                            return (
+                                <Box key={uuidv4()} className="Home_main_first_product_watch"  >
+                                    <img src={e.Img_url} alt="" />
 
-                                <Box className="Home_watch_text w-300 h-205" style={{
-                                    borderRadius: "10px",
-                                    backgroundColor: "#fff"
-                                }}>
-                                    <Box style={{
-                                        width: "99%",
-                                        height: "60px",
-                                        // border: "1px solid blue",
-                                        color: "#000",
-                                        display: "flex",
-                                        textAlign: "center",
-                                        alignItems: 'center',
-                                        paddingLeft: "1"
-                                    }} className="Home_main_rating">
-                                        <p style={{
-                                            color: "red",
-                                            padding: "4px",
-
-                                        }}><StarIcon /></p>
-                                        <p style={{ fontWeight: "600" }}>{e.Rating}</p>
-                                        <p style={{ fontWeight: "600" }}>({e.Reviews} reviews)</p>
-                                    </Box>
-
-                                    <Box className="Home_main_name" style={{
-                                        width: "99%",
-                                        height: "40px",
-                                        color: "rgb(0,0,0)",
-                                        textAlign: "left",
-                                        paddingLeft: "5px",
-                                        fontSixe: "20px",
-                                        fontWeight: "800"
+                                    <Box className="Home_watch_text w-300 h-205" style={{
+                                        borderRadius: "10px",
+                                        backgroundColor: "#fff"
                                     }}>
-                                        <p>{e.Name}</p>
-                                    </Box>
-
-                                    <Box style={{
-                                        width: "99%",
-                                        height: "100px",
-                                        // border: "1px solid red",
-                                        color: "#000",
-                                        display: "flex",
-                                        justifyContent: "space-evenly",
-                                        alignItems: "center",
-                                    }} className='Home_main_price'>
                                         <Box style={{
-                                            paddingTop: "0",
-                                            marginTop: "0"
+                                            width: "99%",
+                                            height: "60px",
+                                            // border: "1px solid blue",
+                                            color: "#000",
+                                            display: "flex",
+                                            textAlign: "center",
+                                            alignItems: 'center',
+                                            paddingLeft: "1"
+                                        }} className="Home_main_rating">
+                                            <p style={{
+                                                color: "red",
+                                                padding: "4px",
+
+                                            }}><StarIcon /></p>
+                                            <p style={{ fontWeight: "600" }}>{e.Rating}</p>
+                                            <p style={{ fontWeight: "600" }}>({e.Reviews} reviews)</p>
+                                        </Box>
+
+                                        <Box className="Home_main_name" style={{
+                                            width: "99%",
+                                            height: "40px",
+                                            color: "rgb(0,0,0)",
+                                            textAlign: "left",
+                                            paddingLeft: "5px",
+                                            fontSixe: "20px",
+                                            fontWeight: "800"
                                         }}>
-                                            <Box
-                                                style={
+                                            <p>{e.Name}</p>
+                                        </Box>
+
+                                        <Box style={{
+                                            width: "99%",
+                                            height: "100px",
+                                            // border: "1px solid red",
+                                            color: "#000",
+                                            display: "flex",
+                                            justifyContent: "space-evenly",
+                                            alignItems: "center",
+                                        }} className='Home_main_price'>
+                                            <Box style={{
+                                                paddingTop: "0",
+                                                marginTop: "0"
+                                            }}>
+                                                <Box
+                                                    style={
+                                                        {
+                                                            color: "red",
+                                                            display: "flex",
+                                                            marginTop: "0",
+                                                            fontWeight: "500"
+                                                        }
+                                                    }> <p> <CurrencyRupeeIcon /> </p><p>{e.LatestPrice}</p></Box>
+
+                                                <Box style={
                                                     {
-                                                        color: "red",
+                                                        color: "black",
                                                         display: "flex",
-                                                        marginTop: "0",
-                                                        fontWeight: "500"
+                                                        marginTop: "-10px",
+                                                        textDecoration: "line-through"
                                                     }
-                                                }> <p> <CurrencyRupeeIcon /> </p><p>{e.LatestPrice}</p></Box>
+                                                }> <p><CurrencyRupeeIcon /></p><p>{e.ActualPrice}</p></Box>
 
-                                            <Box style={
-                                                {
-                                                    color: "black",
+                                            </Box>
+                                            <Box>
+                                                <button style={{
                                                     display: "flex",
-                                                    marginTop: "-10px",
-                                                    textDecoration: "line-through"
-                                                }
-                                            }> <p><CurrencyRupeeIcon /></p><p>{e.ActualPrice}</p></Box>
+                                                    width: "83px",
+                                                    height: "45px",
+                                                    textAlign: "center",
+
+                                                    paddingLeft: "17px",
+                                                    borderRadius: "8px",
+                                                    backgroundColor: "red",
+                                                    color: "white",
+
+                                                    border: "none",
+                                                    alignItems: "center"
+
+                                                }}> Add <AddIcon />  </button>
+                                            </Box>
 
                                         </Box>
-                                        <Box>
-                                            <button style={{
-                                                display: "flex",
-                                                width: "83px",
-                                                height: "45px",
-                                                textAlign: "center",
-
-                                                paddingLeft: "17px",
-                                                borderRadius: "8px",
-                                                backgroundColor: "red",
-                                                color: "white",
-
-                                                border: "none",
-                                                alignItems: "center"
-
-                                            }}> Add <AddIcon />  </button>
-                                        </Box>
-
                                     </Box>
                                 </Box>
-                            </Box>
-                        )
-                    })
-                }
-            </Box>
+                            )
+                        })
+                    }
+                </Box>
 
 
-            <button className='arrowbtnLeft' onClick={() => {
-                if (page > 0) {
-                    setPage(page - 1)
-                }
-
-
-            }}><ArrowBackIosIcon /></button>
-            <button className='arrowbtnRight'
-                onClick={() => {
-
-                    if (width < 400) {
-                        if (page < 8) {
-                            setPage(page + 1)
-                        }
-                    } else if (width > 400 && width < 800) {
-                        if (page < 4) {
-                            setPage(page + 1)
-                        }
-                    } else if (width > 800 && width < 1200) {
-                        if (page < 9) {
-                            setPage(page + 1)
-                        }
-                    } else if (width > 1200) {
-                        if (page < 2) {
-                            setPage(page + 1)
-                        }
+                <button className='arrowbtnLeft' onClick={() => {
+                    if (page > 0) {
+                        setPage(page - 1)
                     }
 
 
+                }}><ArrowBackIosIcon /></button>
+                <button className='arrowbtnRight'
+                    onClick={() => {
 
-                }}><ArrowForwardIosIcon /></button>
+                        if (width < 400) {
+                            if (page < 8) {
+                                setPage(page + 1)
+                            }
+                        } else if (width > 400 && width < 800) {
+                            if (page < 4) {
+                                setPage(page + 1)
+                            }
+                        } else if (width > 800 && width < 1200) {
+                            if (page < 3) {
+                                setPage(page + 1)
+                            }
+                        } else if (width > 1200) {
+                            if (page < 2) {
+                                setPage(page + 1)
+                            }
+                        }
+
+
+
+                    }}><ArrowForwardIosIcon /></button>
+            </Box>
 
         </>
     )
