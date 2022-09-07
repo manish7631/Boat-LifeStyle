@@ -30,7 +30,7 @@ function UsewindowSize() {
 }
 
 
-export const SmartWatch = () => {
+export const TopPick = () => {
     const [height, width] = UsewindowSize()
 
 
@@ -58,7 +58,7 @@ export const SmartWatch = () => {
 
         async function getData() {
             try {
-                const arr = await axios.get(`https://babita-boat.herokuapp.com/topwatch?page=${page}&pagesize=${pagesize}`)
+                const arr = await axios.get(`https://babita-boat.herokuapp.com/toppick?page=${page}&pagesize=${pagesize}`)
                 setWatchData(arr.data)
 
             } catch (err) {
@@ -88,7 +88,7 @@ export const SmartWatch = () => {
 
                                     <Box className="Home_watch_text w-300 h-205" style={{
                                         borderRadius: "10px",
-                                        backgroundColor: "#fff",
+                                        backgroundColor: "#fff"
                                     }}>
                                         <Box style={{
                                             width: "99%",
@@ -192,7 +192,7 @@ export const SmartWatch = () => {
                     onClick={() => {
 
                         if (width < 400) {
-                            if (page < 8) {
+                            if (page < 4) {
                                 setPage(page + 1)
                             }
                         } else if (width > 400 && width < 800) {

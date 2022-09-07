@@ -30,7 +30,7 @@ function UsewindowSize() {
 }
 
 
-export const SmartWatch = () => {
+export const Gaming = () => {
     const [height, width] = UsewindowSize()
 
 
@@ -58,7 +58,7 @@ export const SmartWatch = () => {
 
         async function getData() {
             try {
-                const arr = await axios.get(`https://babita-boat.herokuapp.com/topwatch?page=${page}&pagesize=${pagesize}`)
+                const arr = await axios.get(`https://babita-boat.herokuapp.com/gaming?page=${page}&pagesize=${pagesize}`)
                 setWatchData(arr.data)
 
             } catch (err) {

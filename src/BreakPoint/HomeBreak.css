@@ -229,3 +229,649 @@
     
            }
    }
+
+
+   .NewLaunchesMain{
+    width: 90%;
+    height: 550px;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+    
+   }
+
+   .NewLaunchesDiv{
+    width: 100%;
+    height: 550px;
+    border-radius: 10px;
+   display: flex;
+   }
+
+   .NewLaunchesImg{
+    width: 50%;
+    height: 549px;
+    /* border: 1px solid blue; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+   }
+
+   .NewLaunchesImgTag{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+   }
+
+   .NewLaunchesText{
+    width: 50%;
+    height: 549px;
+    /* border: 1px solid green; */
+    background-color: white;
+    color: black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+   }
+
+   .NewLaunchesTextFirst{
+    width: 60%;
+    height: 150px;
+    /* border: 1px solid red; */
+    margin: auto;
+ color: black;
+   }
+   .NewLaunchesTextFirst > hr{
+    width: 30%;
+    height: 8px;
+    margin: auto;
+    
+   color: red;
+    border-radius: 10px;
+   }
+
+   .NewLaunchesTextSecond{
+    width: 50%;
+    height: 150px;
+    /* border: 1px solid red; */
+    margin: auto;
+ color: black;
+   }
+
+   .NewLaunchesTextThird{
+    width: 90%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: auto;
+ color: black;
+   }
+
+   .btn{
+    width: 150px;
+    height: 40px;
+    border: none;
+  background-color: red;
+   color: black;
+    border-radius: 10px;
+    font-size: 17px;
+    margin: 1%;
+   }
+
+   btnDiv{
+    width: 30%;
+    height: 80px;
+    /* border: 1px solid red; */
+    margin: auto;
+   }
+
+   .newLaunchesarrowbtnLeft{
+    border:1px solid red;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 46%;
+    left: 4%;
+    z-index: 1;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: transparent;
+
+
+
+   }
+
+   .newLaunnchesarrowbtnRight{
+    border:1px solid red;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 46%;
+    left: 95%;
+    z-index: 1;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: transparent;
+
+   }
+
+   @media (max-width:400px){
+    .NewLaunchesMain{
+      width: 90%;
+      height: 850px;
+       /* border: 1px solid white;  */
+      border-radius: 10px;
+      margin: auto;
+      position: relative;
+      
+     }
+     .NewLaunchesDiv{
+      width: 100%;
+      height: 850px;
+      border-radius: 10px;
+      /* border: 1px solid green; */
+     display: block;
+     }
+     .NewLaunchesImg{
+      width: 100%;
+      height: 300px;
+    }
+    
+   .NewLaunchesImgTag{
+    width: 100%;
+    height: 100%;
+    
+   }
+.NewLaunchesText{
+      width: 100%;
+      height: 550px;
+     /* border: 1px solid green; */
+      background-color: white;
+      color: black;
+      
+      
+     }
+  .NewLaunchesTextFirst{
+      width: 99%;
+      height: 100px;
+       /* border: 1px solid red;  */
+      margin: auto;
+   color: black;
+  
+     }
+     .NewLaunchesTextFirst > hr{
+      width: 30%;
+      height: 18px;
+      margin: auto;
+      color: red;
+      border-radius: 10px;
+      
+     }
+  
+     .NewLaunchesTextSecond{
+      width: 99%;
+      height: 150px;
+       /* border: 1px solid red; */
+      margin: auto;
+   color: black;
+   
+     }
+  
+     .NewLaunchesTextThird{
+      width: 99%;
+      height: 300px;
+       /* border: 1px solid red;  */
+      margin: auto;
+   color: black;
+  
+     }
+     .desc{
+      width: 90%;
+      height: 200px;
+      overflow: hidden;
+      /* border: 1px solid blue; */
+      margin: auto;
+      font-weight: 600;
+     }
+  
+     .btn{
+      width: 150px;
+      height: 40px;
+      border: none;
+    background-color: red;
+     color: black;
+      border-radius: 10px;
+      font-size: 17px;
+      margin: 1%;
+      
+     }
+  
+     .btnDiv{
+      width: 99%;
+      height: 70px;
+       /* border: 1px solid red;  */
+      margin: auto;
+ display: flex;
+     }
+
+     .newLaunchesarrowbtnLeft{
+      border:1px solid red;
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      bottom: 76%;
+      left: 4%;
+      z-index: 1;
+      border-radius: 50%;
+      padding: 5px;
+      background-color: transparent;
+  
+  
+  
+     }
+  
+     .newLaunnchesarrowbtnRight{
+      border:1px solid red;
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      bottom: 76%;
+      left: 95%;
+      z-index: 1;
+      border-radius: 50%;
+      padding: 5px;
+      background-color: transparent;
+  
+     }
+  
+  
+   }
+
+
+   
+   @media (min-width:401px) and (max-width:800px){
+    .NewLaunchesMain{
+      width: 90%;
+      height: 850px;
+       /* border: 1px solid white;  */
+      border-radius: 10px;
+      margin: auto;
+      position: relative;
+      
+     }
+     .NewLaunchesDiv{
+      width: 100%;
+      height: 850px;
+      border-radius: 10px;
+       /* border: 1px solid green;  */
+     display: block;
+     }
+     .NewLaunchesImg{
+      width: 100%;
+      height: 300px;
+    }
+    
+   .NewLaunchesImgTag{
+    width: 100%;
+    height: 100%;
+    
+   }
+.NewLaunchesText{
+      width: 100%;
+      height: 550px;
+      /* border: 1px solid green;  */
+      background-color: white;
+      color: black;
+      
+      
+     }
+  .NewLaunchesTextFirst{
+      width: 99%;
+      height: 100px;
+       /* border: 1px solid red;   */
+      margin: auto;
+   color: black;
+  
+     }
+     .NewLaunchesTextFirst > hr{
+      width: 30%;
+      height: 18px;
+      margin: auto;
+      color: red;
+      border-radius: 10px;
+      
+     }
+  
+     .NewLaunchesTextSecond{
+      width: 99%;
+      height: 150px;
+        /* border: 1px solid red;  */
+      margin: auto;
+   color: black;
+   
+     }
+  
+     .NewLaunchesTextThird{
+      width: 99%;
+      height: 300px;
+        /* border: 1px solid red;   */
+      margin: auto;
+   color: black;
+  
+     }
+     .desc{
+      width: 90%;
+      height: 200px;
+      overflow: hidden;
+       /* border: 1px solid blue;  */
+      margin: auto;
+      font-weight: 600;
+     }
+  
+     .btn{
+      width: 150px;
+      height: 40px;
+      border: none;
+    background-color: red;
+     color: black;
+      border-radius: 10px;
+      font-size: 17px;
+      margin: 1%;
+      
+     }
+  
+     .btnDiv{
+      width: 49%;
+      height: 70px;
+        /* border: 1px solid red;  */
+      margin: auto;
+ display: flex;
+     }
+
+     .newLaunchesarrowbtnLeft{
+      border:1px solid red;
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      bottom: 76%;
+      left: 4%;
+      z-index: 1;
+      border-radius: 50%;
+      padding: 5px;
+      background-color: transparent;
+  
+  
+  
+     }
+  
+     .newLaunnchesarrowbtnRight{
+      border:1px solid red;
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      bottom: 76%;
+      left: 95%;
+      z-index: 1;
+      border-radius: 50%;
+      padding: 5px;
+      background-color: transparent;
+  
+     }
+  
+  
+   }
+
+   
+   @media (min-width:801px) and (max-width:1200px){
+    .NewLaunchesMain{
+      width: 90%;
+      height: 850px;
+       /* border: 1px solid white;  */
+      border-radius: 10px;
+      margin: auto;
+      position: relative;
+      
+     }
+     .NewLaunchesDiv{
+      width: 100%;
+      height: 850px;
+      border-radius: 10px;
+      /* border: 1px solid green; */
+     display: block;
+     }
+     .NewLaunchesImg{
+      width: 100%;
+      height: 300px;
+    }
+    
+   .NewLaunchesImgTag{
+    width: 100%;
+    height: 100%;
+    
+   }
+.NewLaunchesText{
+      width: 100%;
+      height: 550px;
+     /* border: 1px solid green; */
+      background-color: white;
+      color: black;
+      
+      
+     }
+  .NewLaunchesTextFirst{
+      width: 99%;
+      height: 100px;
+       /* border: 1px solid red;  */
+      margin: auto;
+   color: black;
+  
+     }
+     .NewLaunchesTextFirst > hr{
+      width: 30%;
+      height: 18px;
+      margin: auto;
+      color: red;
+      border-radius: 10px;
+      
+     }
+  
+     .NewLaunchesTextSecond{
+      width: 99%;
+      height: 150px;
+       /* border: 1px solid red; */
+      margin: auto;
+   color: black;
+   
+     }
+  
+     .NewLaunchesTextThird{
+      width: 99%;
+      height: 300px;
+       /* border: 1px solid red;  */
+      margin: auto;
+   color: black;
+  
+     }
+     .desc{
+      width: 90%;
+      height: 200px;
+      overflow: hidden;
+      /* border: 1px solid blue; */
+      margin: auto;
+      font-weight: 600;
+     }
+  
+     .btn{
+      width: 150px;
+      height: 40px;
+      border: none;
+    background-color: red;
+     color: black;
+      border-radius: 10px;
+      font-size: 17px;
+      margin: 1%;
+      
+     }
+  
+     .btnDiv{
+      width: 40%;
+      height: 70px;
+       /* border: 1px solid red;   */
+      margin: auto;
+ display: flex;
+     }
+
+     .newLaunchesarrowbtnLeft{
+      border:1px solid red;
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      bottom: 76%;
+      left: 4%;
+      z-index: 1;
+      border-radius: 50%;
+      padding: 5px;
+      background-color: transparent;
+  
+  
+  
+     }
+  
+     .newLaunnchesarrowbtnRight{
+      border:1px solid red;
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      bottom: 76%;
+      left: 95%;
+      z-index: 1;
+      border-radius: 50%;
+      padding: 5px;
+      background-color: transparent;
+  
+     }
+  
+  
+   }
+
+   #Home_main_Blog{
+    width: 100%;
+    height: 500px;
+    display: flex;
+     
+}
+
+.Home_main_Blog{
+    width: 30%;
+    height: 409px;
+    /* border: 1px solid red; */
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #e3e3e3;
+}
+
+ .imgtag{
+  width: 100%;
+  height: 200px;
+ }
+
+  img{
+    width: 100%;
+    height:200px;
+ 
+}
+
+.Home_watch_text_Blog{
+  border-radius: 10px;
+  background-color: #fff;
+  width: 100%;
+  height: 200px;
+}
+
+
+@media (max-width:400px){
+  #Home_main_Blog{
+    width: 100%;
+    height: 150px;
+    display: block;
+    padding-top: 3%;
+     
+}
+
+.Home_main_Blog{
+    width: 90%;
+    height: 150px;
+     border: 1px solid red; 
+    margin-top: 2%;
+    border-radius: 10px;
+   
+    display: flex;
+   
+}
+.imgtag{
+  width: 50%;
+  height: 150px;
+}
+.Home_watch_text_Blog{
+  border-radius: 10px;
+  background-color: #fff;
+  width: 50%;
+  height: 150px;
+ 
+}
+
+.Home_watch_text_Blog > h1{
+  padding-top: 30%;
+  font-size: 15px;
+}
+
+  img{
+    width: 100%;
+    height:150px;
+ 
+}
+
+}
+
+
+@media (min-width:401px) and  (max-width:800px){
+  #Home_main_Blog{
+    width: 100%;
+    height: 150px;
+    display: block;
+    padding-top: 3%;
+     
+}
+
+.Home_main_Blog{
+    width: 90%;
+    height: 150px;
+     border: 1px solid red; 
+    margin-top: 2%;
+    border-radius: 10px;
+   
+    display: flex;
+   
+}
+.imgtag{
+  width: 50%;
+  height: 150px;
+}
+.Home_watch_text_Blog{
+  border-radius: 10px;
+  background-color: #fff;
+  width: 50%;
+  height: 150px;
+ 
+}
+
+.Home_watch_text_Blog > h1{
+  padding-top: 16%;
+  font-size: 24px;
+}
+
+  img{
+    width: 100%;
+    height:150px;
+ 
+}
+
+}

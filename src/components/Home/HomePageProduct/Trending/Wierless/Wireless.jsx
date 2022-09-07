@@ -9,7 +9,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import AddIcon from '@mui/icons-material/Add';
 import { Box } from "@mui/material";
 
-import "../../../../BreakPoint/HomeBreak.css"
+import "../../../../../BreakPoint/HomeBreak.css"
 
 
 
@@ -30,7 +30,7 @@ function UsewindowSize() {
 }
 
 
-export const SmartWatch = () => {
+export const Wireless = () => {
     const [height, width] = UsewindowSize()
 
 
@@ -58,7 +58,7 @@ export const SmartWatch = () => {
 
         async function getData() {
             try {
-                const arr = await axios.get(`https://babita-boat.herokuapp.com/topwatch?page=${page}&pagesize=${pagesize}`)
+                const arr = await axios.get(`https://babita-boat.herokuapp.com/wierless?page=${page}&pagesize=${pagesize}`)
                 setWatchData(arr.data)
 
             } catch (err) {

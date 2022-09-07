@@ -1,0 +1,83 @@
+#Home_main_third_product{
+   width: 90%;
+   height: 600px;
+   border: 1px solid yellow; 
+   margin: auto;
+   border-radius: 35px;
+   display: flex;
+   overflow: hidden; 
+    
+}
+.Home_main_third_product_watch{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    
+}
+ 
+  button{
+    background-color: red;
+    color: white;
+    border: none;
+    margin: 5px;
+    font-size: 19px;
+}
+
+#Home_main_actor_product{
+  width: 90%;
+  height: 600px;
+  border: 1px solid yellow; 
+  margin: auto;
+  border-radius: 35px;
+  display: flex;
+  overflow: hidden; 
+   
+}
+.Home_main_actor_product_watch{
+   width: 100%;
+   height: 600px;
+   display: flex;
+   
+}
+
+#Home_main_press_product{
+  width: 95%;
+  height: 200px;
+  /* border: 1px solid yellow;  */
+  margin: auto;
+  border-radius: 35px;
+   
+   
+}
+
+#Home_main_image_product{
+  width: 100%;
+  /* height: 600px; */
+  /* border:1px solid red */
+}
+@media (max-width:400px){
+   .Div3,
+    .Div4, 
+    .Div5{
+    display: none;
+   }
+}
+
+
+@media (min-width:401px) and (max-width:800px){
+  
+   .Div4, 
+   .Div5{
+   display: none;
+  }
+}
+
+
+
+@media (min-width:801px) and (max-width:1200px){
+  
+   
+   .Div5{
+   display: none;
+  }
+}

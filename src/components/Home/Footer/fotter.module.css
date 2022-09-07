@@ -1,0 +1,455 @@
+.footer{
+    width: 100%;
+    height: 650px;
+    /* border: 1px solid red; */
+}
+
+.fotter_main{
+    width: 100%;
+    height: 530px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2%;
+}
+.first_div{
+    width: 25%;
+    height: 520px;
+    /* border: 1px solid blue; */
+    color: white;
+    text-align: left;
+}
+.email_div{
+    width:99%;
+    height: 80px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+.input1{
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+    text-align: left;
+    margin-left: 0;
+    border: none;
+    background-color: black;
+    color: white;
+    
+    
+}
+   
+ .btn{
+    width: 140px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+ }
+ .SocialDiv{
+    width: 95%;
+    height: 50px;
+    /* border: 1px solid white; */
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+   
+ }
+
+ .last{
+    width: 90%;
+    height: 100px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+   
+ }
+
+ .pay{
+    width: 50%;
+    height: 100px;
+    /* border: 1px solid red; */
+ }
+
+ .pay > img{
+    width: 100%;
+    height: 100px;
+ }
+ .app{
+    width: 50%;
+    height: 100px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+ }
+
+
+ .app > p{
+    font-size: 22px;
+ }
+ .app > img{
+    width: 30%;
+    height: 100px;
+ }
+
+ .footer > p{
+    color: white;
+ }
+
+ @media (max-width:400px){
+    .footer{
+        width: 100%;
+        height: 690px;
+     /* border: 1px solid red;  */
+         
+    }
+    
+.fotter_main{
+    width: 100%;
+    height: auto;
+     /* border: 1px solid green;  */
+  display: block;
+    padding-left: 2%;
+}
+
+.first_div{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid blue;  */
+    color: white;
+ padding-left: 2%;
+   
+}
+.email_div{
+    width:99%;
+    height: 80px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+ }
+.input1{
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+    text-align: left;
+    margin-left: 0;
+    border: none;
+    background-color: black;
+    color: white;
+    
+    
+}
+   
+ .btn{
+    width: 140px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+ }
+ .SocialDiv{
+    width: 95%;
+    height: 50px;
+    /* border: 1px solid white; */
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+   
+ }
+
+ .first_div > p{
+   display: none;
+ }
+ .last{
+    width: 90%;
+    height: 100px;
+    /* border: 1px solid white; */
+    display: block;
+    justify-content: space-around;
+    margin: auto;
+  
+   
+ }
+
+ .pay{
+    width: 100%;
+    height: 100px;
+     /* border: 1px solid red;   */
+    
+ }
+
+ .pay > img{
+    width: 100%;
+    height: 100px;
+ }
+ .app{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid red; */
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+   
+ }
+
+
+ .app > p{
+    font-size: 22px;
+ }
+ .app > img{
+    width: 40%;
+    height: 100px;
+    margin: 1%;
+ }
+
+ .footer > p{
+    color: white;
+    margin-top: 50%;
+ 
+ }
+ }
+
+ 
+ @media (min-width:401px) and (max-width:800px){
+   .footer{
+       width: 100%;
+       height: 690px;
+    /* border: 1px solid red;  */
+        
+   }
+   
+.fotter_main{
+   width: 100%;
+   height: auto;
+    /* border: 1px solid green;  */
+ display: block;
+   padding-left: 2%;
+}
+
+.first_div{
+   width: 100%;
+   height: auto;
+   /* border: 1px solid blue;  */
+   color: white;
+padding-left: 2%;
+  
+}
+.email_div{
+   width:99%;
+   height: 80px;
+   /* border: 1px solid black; */
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   
+}
+.input1{
+   width: 50%;
+   height: 50px;
+   padding: 10px;
+   text-align: left;
+   margin-left: 0;
+   border: none;
+   background-color: black;
+   color: white;
+   
+   
+}
+  
+.btn{
+   width: 140px;
+   height: 50px;
+   background-color: red;
+   color: white;
+   border-radius: 5px;
+}
+.SocialDiv{
+   width: 95%;
+   height: 50px;
+   /* border: 1px solid white; */
+   color: white;
+   padding: 5px;
+   display: flex;
+   justify-content: space-evenly;
+  
+}
+
+.first_div > p{
+  display: none;
+}
+.last{
+   width: 90%;
+   height: 100px;
+   /* border: 1px solid white; */
+   display: block;
+   justify-content: space-around;
+   margin: auto;
+ 
+  
+}
+
+.pay{
+   width: 100%;
+   height: 100px;
+    /* border: 1px solid red;   */
+   
+}
+
+.pay > img{
+   width: 100%;
+   height: 100px;
+}
+.app{
+   width: 100%;
+   height: 100px;
+   /* border: 1px solid red; */
+   display: block;
+   justify-content: space-around;
+   align-items: center;
+   color: white;
+  
+}
+
+
+.app > p{
+   font-size: 22px;
+}
+.app > img{
+   width: 40%;
+   height: 100px;
+   margin: 1%;
+}
+
+.footer > p{
+   color: white;
+   margin-top: 50%;
+
+}
+}
+
+
+@media (min-width:801px) and (max-width:1200px){
+   .footer{
+       width: 100%;
+       height: 690px;
+    /* border: 1px solid red;  */
+        
+   }
+   
+.fotter_main{
+   width: 100%;
+   height: auto;
+    /* border: 1px solid green;  */
+ display: block;
+   padding-left: 2%;
+}
+
+.first_div{
+   width: 100%;
+   height: auto;
+   /* border: 1px solid blue;  */
+   color: white;
+padding-left: 2%;
+  
+}
+.email_div{
+   width:99%;
+   height: 80px;
+   /* border: 1px solid black; */
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   
+}
+.input1{
+   width: 50%;
+   height: 50px;
+   padding: 10px;
+   text-align: left;
+   margin-left: 0;
+   border: none;
+   background-color: black;
+   color: white;
+   
+   
+}
+  
+.btn{
+   width: 140px;
+   height: 50px;
+   background-color: red;
+   color: white;
+   border-radius: 5px;
+}
+.SocialDiv{
+   width: 95%;
+   height: 180px;
+   /* border: 1px solid white; */
+   color: white;
+   padding: 5px;
+   display: flex;
+   justify-content: space-evenly;
+  
+}
+
+.first_div > p{
+  display: none;
+}
+.last{
+   width: 90%;
+   height: 100px;
+   /* border: 1px solid white; */
+   display: block;
+   justify-content: space-around;
+   margin: auto;
+ 
+  
+}
+
+.pay{
+   width: 100%;
+   height: 100px;
+    /* border: 1px solid red;   */
+   
+}
+
+.pay > img{
+   width: 100%;
+   height: 100px;
+}
+.app{
+   width: 100%;
+   height: 100px;
+   /* border: 1px solid red; */
+   display: block;
+   justify-content: space-around;
+   align-items: center;
+   color: white;
+  
+}
+
+
+.app > p{
+   font-size: 22px;
+}
+.app > img{
+   width: 40%;
+   height: 100px;
+   margin: 1%;
+}
+
+.footer > p{
+   color: white;
+   margin-top: 50%;
+
+}
+}
