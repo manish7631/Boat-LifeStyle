@@ -1,16 +1,16 @@
 import React from 'react'
 import { useEffect, useState } from "react"
-import { v4 as uuidv4 } from 'uuid';
+
 import axios from "axios"
-import StarIcon from '@mui/icons-material/Star';
-import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
+
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import AddIcon from '@mui/icons-material/Add';
+
 import { Box } from "@mui/material";
 
 import "../../../../BreakPoint/HomeBreak.css"
-
+import { IncCount } from '../../../../redux/appCart/action';
+import { useDispatch } from 'react-redux';
 
 
 function UsewindowSize() {
@@ -31,6 +31,8 @@ function UsewindowSize() {
 
 
 export const Actors = () => {
+
+    const dispatch = useDispatch()
     const [height, width] = UsewindowSize()
 
 
@@ -114,7 +116,10 @@ export const Actors = () => {
 
                                         <Box className='btnDiv'>
                                             <button className='btn'>EXPLORE NOW</button>
-                                            <button className='btn'>ADD TO CART</button>
+                                            <button onClick={() => {
+                                                dispatch(IncCount(1))
+                                            }}
+                                                className='btn'>ADD TO CART</button>
                                         </Box>
                                     </Box>
                                 </Box>

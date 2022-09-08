@@ -11,7 +11,8 @@ import { Box } from "@mui/material";
 
 import "../../../../BreakPoint/HomeBreak.css"
 
-
+import { IncCount } from '../../../../redux/appCart/action';
+import { useDispatch } from 'react-redux';
 
 function UsewindowSize() {
     const [size, setSize] = useState([window.innerHeight, window.innerWidth])
@@ -31,6 +32,8 @@ function UsewindowSize() {
 
 
 export const NewLaunches = () => {
+
+    const dispatch = useDispatch()
     const [height, width] = UsewindowSize()
 
 
@@ -114,7 +117,10 @@ export const NewLaunches = () => {
 
                                         <Box className='btnDiv'>
                                             <button className='btn'>EXPLORE NOW</button>
-                                            <button className='btn'>ADD TO CART</button>
+                                            <button onClick={() => {
+                                                dispatch(IncCount(1))
+                                            }}
+                                                className='btn'>ADD TO CART</button>
                                         </Box>
                                     </Box>
                                 </Box>

@@ -9,7 +9,12 @@ import PersonIcon from '@mui/icons-material/Person';
 import SearchIcon from '@mui/icons-material/Search';
 import Badge from '@mui/material/Badge';
 import Input from '@mui/material/Input';
+import { useSelector } from 'react-redux';
 export const Header = () => {
+
+    const count = useSelector((store) => store.count)
+
+    console.log("count", count)
     return (
         <div>
             <Navbar bg="dark" variant="dark" className='d-flex flex-wrap'>
@@ -31,7 +36,7 @@ export const Header = () => {
 
                         <Nav.Link href="#pricing" className='text-light fs-1 me-1'>
 
-                            <Badge badgeContent={4} color="primary">
+                            <Badge badgeContent={count > 0 ? count : "0"} color="primary">
                                 <ShoppingCartIcon />
                             </Badge> </Nav.Link>
                     </Nav>

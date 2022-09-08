@@ -2,12 +2,8 @@ import React from 'react'
 import { useEffect, useState } from "react"
 import { v4 as uuidv4 } from 'uuid';
 import axios from "axios"
-import StarIcon from '@mui/icons-material/Star';
-import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
-import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import AddIcon from '@mui/icons-material/Add';
-import { Box } from "@mui/material";
+
+import { Box, Button } from "@mui/material";
 
 import "../../../../BreakPoint/HomeBreak.css"
 
@@ -91,9 +87,18 @@ export const About = () => {
                                         <img src={e.Img_url} alt="" />
                                     </Box>
                                     <Box style={{
-                                        backgroundColor: "red"
+                                        backgroundColor: "red",
+                                        height: "auto"
                                     }} className="Home_watch_text_Blog">
                                         <h1>{e.Desc}</h1>
+                                        <Button style={{
+                                            width: "30%",
+                                            height: "45px",
+                                            backgroundColor: "white",
+                                            color: "balck",
+                                            margin: "1%",
+                                            borderRadius: "10px"
+                                        }}> SHOP NOW</Button>
 
 
                                     </Box>

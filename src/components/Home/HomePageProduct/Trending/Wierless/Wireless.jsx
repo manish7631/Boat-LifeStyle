@@ -10,7 +10,8 @@ import AddIcon from '@mui/icons-material/Add';
 import { Box } from "@mui/material";
 
 import "../../../../../BreakPoint/HomeBreak.css"
-
+import { IncCount } from '../../../../../redux/appCart/action';
+import { useDispatch } from 'react-redux';
 
 
 function UsewindowSize() {
@@ -31,6 +32,10 @@ function UsewindowSize() {
 
 
 export const Wireless = () => {
+
+    const dispatch = useDispatch()
+
+
     const [height, width] = UsewindowSize()
 
 
@@ -155,21 +160,25 @@ export const Wireless = () => {
 
                                             </Box>
                                             <Box>
-                                                <button style={{
-                                                    display: "flex",
-                                                    width: "83px",
-                                                    height: "45px",
-                                                    textAlign: "center",
+                                                <button onClick={() => {
+                                                    dispatch(IncCount(1))
+                                                }}
 
-                                                    paddingLeft: "17px",
-                                                    borderRadius: "8px",
-                                                    backgroundColor: "red",
-                                                    color: "white",
+                                                    style={{
+                                                        display: "flex",
+                                                        width: "83px",
+                                                        height: "45px",
+                                                        textAlign: "center",
 
-                                                    border: "none",
-                                                    alignItems: "center"
+                                                        paddingLeft: "17px",
+                                                        borderRadius: "8px",
+                                                        backgroundColor: "red",
+                                                        color: "white",
 
-                                                }}> Add <AddIcon />  </button>
+                                                        border: "none",
+                                                        alignItems: "center"
+
+                                                    }}> Add <AddIcon />  </button>
                                             </Box>
 
                                         </Box>
