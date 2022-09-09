@@ -2,16 +2,15 @@ import React from 'react'
 import { useEffect, useState } from "react"
 import { v4 as uuidv4 } from 'uuid';
 import axios from "axios"
-import StarIcon from '@mui/icons-material/Star';
-import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
+
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import AddIcon from '@mui/icons-material/Add';
+
 import { Box } from "@mui/material";
 
 import "../../../../BreakPoint/HomeBreak.css"
 
-import { IncCount } from '../../../../redux/appCart/action';
+import { AddToCart } from '../../../../redux/appCart/action';
 import { useDispatch } from 'react-redux';
 
 function UsewindowSize() {
@@ -84,7 +83,7 @@ export const NewLaunches = () => {
                 {
                     watchData.map((e) => {
                         return (
-                            <Box className='NewLaunchesDiv'>
+                            <Box key={uuidv4()} className='NewLaunchesDiv'>
                                 <Box className='NewLaunchesImg'>
                                     <img className='NewLaunchesImgTag' src={e.Img_url} alt="" />
                                 </Box>
@@ -118,7 +117,8 @@ export const NewLaunches = () => {
                                         <Box className='btnDiv'>
                                             <button className='btn'>EXPLORE NOW</button>
                                             <button onClick={() => {
-                                                dispatch(IncCount(1))
+
+                                                dispatch(AddToCart(e))
                                             }}
                                                 className='btn'>ADD TO CART</button>
                                         </Box>

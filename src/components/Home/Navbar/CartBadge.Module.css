@@ -1,0 +1,42 @@
+.allTextHeader{
+width: 90%;
+height: 200px;
+/* border: 1px solid red; */
+margin: auto;
+display: flex;
+justify-content: space-around;
+
+}
+
+.allTextHeader > div{
+    width: 50%;
+    height: 200px;
+    /* border: 1px solid green; */
+}
+.allTextHeader > div:nth-child(3){
+    width: 10%;
+    height: 200px;
+   
+}
+ 
+ 
+.actual{
+    text-decoration: line-through;
+}
+ 
+.CartLast{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+ button{
+  
+    width:120px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 2%;
+ }
+ #total{
+    padding-left: 5%;
+ }

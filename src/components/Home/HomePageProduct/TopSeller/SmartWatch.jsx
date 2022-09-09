@@ -11,7 +11,7 @@ import { Box } from "@mui/material";
 
 import "../../../../BreakPoint/HomeBreak.css"
 import { useDispatch } from 'react-redux';
-import { IncCount } from '../../../../redux/appCart/action';
+import { AddToCart } from '../../../../redux/appCart/action';
 
 
 
@@ -33,6 +33,7 @@ function UsewindowSize() {
 
 
 export const SmartWatch = () => {
+
 
 
 
@@ -78,6 +79,7 @@ export const SmartWatch = () => {
     }, [page, pagesize, width])
 
 
+    console.log("data", watchData)
 
 
 
@@ -163,7 +165,8 @@ export const SmartWatch = () => {
                                             </Box>
                                             <Box>
                                                 <button onClick={() => {
-                                                    dispatch(IncCount(1))
+
+                                                    dispatch(AddToCart(e))
                                                 }}
 
                                                     style={{

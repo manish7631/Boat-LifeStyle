@@ -10,7 +10,7 @@ import AddIcon from '@mui/icons-material/Add';
 import { Box } from "@mui/material";
 
 import "../../../../../BreakPoint/HomeBreak.css"
-import { IncCount } from '../../../../../redux/appCart/action';
+import { AddToCart } from '../../../../../redux/appCart/action';
 import { useDispatch } from 'react-redux';
 
 
@@ -160,7 +160,8 @@ export const Earbuds = () => {
                                             </Box>
                                             <Box>
                                                 <button onClick={() => {
-                                                    dispatch(IncCount(1))
+
+                                                    dispatch(AddToCart(e))
                                                 }}
                                                     style={{
                                                         display: "flex",
