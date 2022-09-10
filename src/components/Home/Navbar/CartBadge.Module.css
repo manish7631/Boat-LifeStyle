@@ -29,14 +29,14 @@ justify-content: space-around;
     justify-content: space-evenly;
    
 }
- button{
+ /* button{
   
     width:120px;
     height: 45px;
     border-radius: 10px;
     font-size: 17px;
     padding: 2%;
- }
+ } */
  #total{
     padding-left: 5%;
  }

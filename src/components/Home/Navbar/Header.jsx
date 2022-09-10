@@ -101,7 +101,7 @@ export const Header = () => {
                     }}>
                         <img style={{
                             cursor: "pointer"
-                        }} onClick={handleClose} width={'50px'} height={'50px'} src="https://www.citypng.com/public/uploads/small/31631915371lyniu2zkjrlmbmhkqxc9kvtfx68cnz2xlt2rjuj76epxi2rwewm7g83rnuzcvyqnedbb3dxjrxiqtvtbdegg7gqjqanaebkz3zb4.png" alt="" />
+                        }} onClick={handleClose} width={'20px'} height={'20px'} src="https://www.citypng.com/public/uploads/small/31631915371lyniu2zkjrlmbmhkqxc9kvtfx68cnz2xlt2rjuj76epxi2rwewm7g83rnuzcvyqnedbb3dxjrxiqtvtbdegg7gqjqanaebkz3zb4.png" alt="" />
                         {
                             cart.map((e) => {
                                 return (
@@ -138,7 +138,16 @@ export const Header = () => {
 
 
 
-                    </div> : null}
+                    </div> : <div style={{
+                        width: "24rem",
+                        height: "auto"
+
+                    }}>
+                        <img style={{
+                            cursor: "pointer"
+                        }} onClick={handleClose} width={'20px'} height={'20px'} src="https://www.citypng.com/public/uploads/small/31631915371lyniu2zkjrlmbmhkqxc9kvtfx68cnz2xlt2rjuj76epxi2rwewm7g83rnuzcvyqnedbb3dxjrxiqtvtbdegg7gqjqanaebkz3zb4.png" alt="" />
+
+                        <h2>Your Cart is Empty!</h2></div>}
                 </Menu>
             </Navbar>
         </div>
