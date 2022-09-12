@@ -79,7 +79,7 @@ export const SmartWatch = () => {
     }, [page, pagesize, width])
 
 
-    console.log("data", watchData)
+    // console.log("data", watchData)
 
 
 
