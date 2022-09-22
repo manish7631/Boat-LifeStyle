@@ -67,29 +67,30 @@ export const Header = () => {
 
     const urlCategory = searchParams.getAll('category')
 
-    const [category, setCategory] = useState(urlCategory || [])
+    const [urlcategory, setUrlategory] = useState(urlCategory || [])
 
     const handleCheckbox = (e) => {
         const option = e.category
+        //  console.log("category", option)
 
-        let newCategory = [...category]
-        if (category.includes(option)) {
+        let newCategory = [...urlcategory]
+        if (urlcategory.includes(option)) {
             newCategory.splice(newCategory.indexOf(option), 1)
         } else {
             newCategory.push(option)
         }
 
-        setCategory(newCategory)
+        setUrlategory(option)
     }
 
 
     useEffect(() => {
-        if (category) {
+        if (urlcategory) {
             let params = {}
-            category && (params.category = category)
-            // setSearchParams(params)
+            urlcategory && (params.category = urlcategory)
+            setSearchParams(params)
         }
-    }, [category, setSearchParams])
+    }, [urlcategory, setSearchParams])
 
     const [openDrawer, setOpenDrawer] = useState(false)
     const dispatch = useDispatch()
@@ -126,7 +127,9 @@ export const Header = () => {
                 <Container className='p-2'>
                     <Navbar.Brand onClick={() => setOpenDrawer(true)} className='text-light fs-1'><MenuIcon /> </Navbar.Brand>
                     <Nav>
-                        <Nav.Link className='text-light fs-1'> bo<span style={{ color: "red" }}>A</span>t</Nav.Link>
+                        <Link to='/' style={{
+                            textDecoration: "none"
+                        }} className='text-light fs-1'>   bo<span style={{ color: "red" }}>A</span>t</Link>
 
                     </Nav>
 
@@ -205,7 +208,7 @@ export const Header = () => {
                             })
                         }
                         <Box className="CartLast">
-                            <button>Pay Now</button>
+                            <Link to={'/payment'}> <button onClick={handleClose}>Pay Now</button></Link>
                             <h2 id='total'>Total:{price}</h2>
                         </Box>
 
@@ -237,16 +240,20 @@ export const Header = () => {
                                         width: '300px',
                                         height: "200px",
                                         borderRadius: "10px"
-                                    }} onClick={() => setOpenDrawer(false)}   >
-                                        <Link to={`/${e.category}`} >
+                                    }} onClick={() => {
+                                        handleCheckbox(e)
+                                    }}     >
+                                        <div onClick={() => setOpenDrawer(false)}>
+                                            <Link to={`/product`} >
 
-                                            <img style={{
-                                                width: "100%",
-                                                height: "100%",
-                                                borderRadius: "10px"
+                                                <img style={{
+                                                    width: "100%",
+                                                    height: "100%",
+                                                    borderRadius: "10px"
 
-                                            }} src={e.img} alt="" />
-                                        </Link>
+                                                }} src={e.img} alt="" />
+                                            </Link>
+                                        </div>
                                     </div>
 
                                 )

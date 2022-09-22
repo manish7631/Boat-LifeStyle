@@ -1,0 +1,148 @@
+#mainPayment{
+    width: 100%;
+    height: 440px;
+    /* border: 1px solid red; */
+}
+.CardPayment{
+    width: 40%;
+    height: 280px;
+    border: 1px solid teal;
+    margin: 3% auto 0 auto;
+}
+.inputPayment{
+    width: 550px;
+    height: 40px;
+    margin: 2%;
+    padding-left: 2%;
+    font-size: 18px;
+}
+
+.expiaryPayment{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.inpPayment{
+    width: 250px;
+    height: 40px;
+    margin: 1%;   
+    padding-left: 2%;
+    font-size: 18px;
+}
+
+.buttonPayment{
+    width: 150px;
+    height: 45px;
+    border:none;
+    font-size: 15px;
+    padding-top: 4px;
+    background-color: red;
+    border-radius: 10px;
+}
+.h1Payment{
+    color: white;
+    margin-top: 2%;
+}
+
+@media (min-width:401px) and (max-width:800px){
+    #mainPayment{
+        width: 100%;
+        height: 440px;
+        /* border: 1px solid red; */
+    }
+    .CardPayment{
+        width: 100%;
+        height: 250px;
+        border: 1px solid teal;
+        margin: 3% auto 0 auto;
+    }
+    .inputPayment{
+        width: 390px;
+        height: 40px;
+        margin: 2%;
+        padding-left: 2%;
+        font-size: 18px;
+    }
+    
+    .expiaryPayment{
+        width: 100%;
+        height: 80px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+    }
+    
+    .inpPayment{
+        width: 250px;
+        height: 40px;
+        margin: 1%;   
+        padding-left: 2%;
+        font-size: 18px;
+    }
+    
+    .buttonPayment{
+        width: 150px;
+        height: 45px;
+        border-radius: 1px solid red;
+        font-size: 17px;
+        padding-top: 8px;
+    }
+    .h1Payment{
+        color: white;
+        margin-top: 2%;
+    }
+    
+}
+
+@media (max-width:400px){
+    #mainPayment{
+        width: 100%;
+        height: 440px;
+        /* border: 1px solid red; */
+    }
+    .CardPayment{
+        width: 100%;
+        height: 250px;
+        border: 1px solid teal;
+        margin: 3% auto 0 auto;
+    }
+    .inputPayment{
+        width: 330px;
+        height: 40px;
+        margin: 2%;
+        padding-left: 2%;
+        font-size: 18px;
+    }
+    
+    .expiaryPayment{
+        width: 100%;
+        height: 80px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+    }
+    
+    .inpPayment{
+        width: 200px;
+        height: 40px;
+        margin: 1%;   
+        padding-left: 2%;
+        font-size: 18px;
+    }
+    
+    .buttonPayment{
+        width: 150px;
+        height: 45px;
+        border-radius: 1px solid red;
+        font-size: 17px;
+        padding-top: 8px;
+    }
+    .h1Payment{
+        color: white;
+        margin-top: 2%;
+    }
+    
+}

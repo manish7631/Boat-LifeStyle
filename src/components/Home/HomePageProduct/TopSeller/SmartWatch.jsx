@@ -12,6 +12,7 @@ import { Box } from "@mui/material";
 import "../../../../BreakPoint/HomeBreak.css"
 import { useDispatch } from 'react-redux';
 import { AddToCart } from '../../../../redux/appCart/action';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 
@@ -35,7 +36,7 @@ function UsewindowSize() {
 export const SmartWatch = () => {
 
 
-
+    const navigate = useNavigate()
 
     const dispatch = useDispatch()
 
@@ -92,7 +93,10 @@ export const SmartWatch = () => {
                     {
                         watchData.map((e, i) => {
                             return (
-                                <Box key={uuidv4()} className="Home_main_first_product_watch"  >
+
+                                <Box onClick={() => {
+                                    navigate(`/${e.id}`)
+                                }} key={uuidv4()} className="Home_main_first_product_watch"  >
                                     <img src={e.Img_url} alt="" />
 
                                     <Box className="Home_watch_text w-300 h-205" style={{
@@ -189,6 +193,7 @@ export const SmartWatch = () => {
                                         </Box>
                                     </Box>
                                 </Box>
+
                             )
                         })
                     }

@@ -181,11 +181,11 @@ export const Home = () => {
 
             {/* ----------------Footer---------------------- */}
 
-            <Box style={{
+            {/* <Box style={{
                 height: "400px"
             }} className={styles.topSellerGame}>
                 <Fotter />
-            </Box>
+            </Box> */}
         </Box>
     )
 }
